@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>S. Obulakshmi | Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#home">Obulakshmi<span>.</span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">Menu</button>
+  <nav id="navLinks">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="blob b1"></div><div class="blob b2"></div>
+  <div class="hero-inner">
+    <div class="avatar" aria-hidden="true">SO</div>
+    <p class="hello">Hello, I'm</p>
+    <h1>S. Obulakshmi</h1>
+    <p class="typing"><span id="typed"></span><span class="cursor">|</span></p>
+    <p class="intro">B.E. Computer Science student from Salem, Tamil Nadu. I build web apps and love turning ideas into working products.</p>
+    <div class="btns">
+      <a class="btn primary" href="#projects">View my work</a>
+      <a class="btn ghost" href="#contact">Contact me</a>
+    </div>
+    <div class="socials">
+      <a href="https://github.com/sureshobulakshmi14-coder" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/obulakshmi-s-767579340" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:sureshobulakshmi14@gmail.com">Email</a>
+    </div>
+  </div>
+</section>
+
+<main>
+  <section id="about" class="reveal">
+    <h2>About Me</h2>
+    <div class="about-grid">
+      <p>I am a Computer Science and Engineering student at Mahendra Engineering College for Women (Anna University, 2024 to 2028). I want to apply my technical skills, learn new technologies and contribute to innovative projects while growing as a professional.</p>
+      <div class="facts">
+        <div><b>1st Prize</b><span>Q-Learn Poster Presentation, 2026</span></div>
+        <div><b>3</b><span>Projects built</span></div>
+        <div><b>CodeEmy</b><span>Campus Ambassador</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="reveal">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="reveal">
+    <h2>Projects</h2>
+    <div class="grid">
+      <article class="card">
+        <span class="badge">SIH Smart Education</span>
+        <h3>Q-Learn</h3>
+        <p>An AI-based interactive platform for learning quantum algorithms.</p>
+        <p class="stack">React, FastAPI, LLM AI Tutor, Qiskit, SQLite</p>
+      </article>
+      <article class="card">
+        <span class="badge">Hackathon</span>
+        <h3>Women Safety</h3>
+        <p>Gives women safety and quick help in emergency situations.</p>
+      </article>
+      <article class="card">
+        <span class="badge alt">In progress</span>
+        <h3>No-Signal Emergency Communication</h3>
+        <p>Sends help requests from areas that have no network signal.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="certificates" class="reveal">
+    <h2>Certifications &amp; Achievements</h2>
+    <ul class="certs">
+      <li><strong>Q-Learn Poster Presentation</strong><span>1st Prize, Tech Event, Sep 2026</span></li>
+      <li><strong>CodeEmy Campus Ambassador</strong><span>Certificate of Recognition, Sep 2026</span></li>
+      <li><strong>AI-Powered Full Stack Development</strong><span>Workshop Participation, Sep 2026</span></li>
+      <li><strong>BOTATHON 2K26</strong><span>Certificate of Participation, Oct 2026</span></li>
+      <li><strong>NIPAM</strong><span>National Intellectual Property Awareness Mission, 2025</span></li>
+    </ul>
+  </section>
+
+  <section id="contact" class="reveal">
+    <h2>Contact</h2>
+    <div class="contact-grid">
+      <ul class="contact">
+        <li>Email: <a href="mailto:sureshobulakshmi14@gmail.com">sureshobulakshmi14@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/obulakshmi-s-767579340" target="_blank" rel="noopener">obulakshmi-s-767579340</a></li>
+        <li>GitHub: <a href="https://github.com/sureshobulakshmi14-coder" target="_blank" rel="noopener">sureshobulakshmi14-coder</a></li>
+        <li>Location: Salem, Tamil Nadu</li>
+      </ul>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your name" required>
+        <input type="email" id="email" placeholder="Your email" required>
+        <textarea id="message" rows="4" placeholder="Your message" required></textarea>
+        <button class="btn primary" type="submit">Send message</button>
+        <p id="formMsg" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>Small steps towards big dreams.</footer>
+<script src="script.js"></script>
+</body>
+</html>
